@@ -1,0 +1,18 @@
+server:
+  port: 9001
+  servlet:
+    context-path: /oy
+
+spring:
+  activemq:
+    broker-url: tcp://119.23.187.31:61616
+    user: admin
+    password: admin
+    pool:
+      enabled: true
+      max-connections: 50
+      idle-timeout: 30000
+
+queue.oy: oy
+
+
