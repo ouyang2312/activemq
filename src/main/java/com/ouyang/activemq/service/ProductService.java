@@ -31,7 +31,6 @@ public class ProductService {
         jmsTemplate.convertAndSend(destination,message);
     }
 
-
     /**
      * 延时发送
      * @author oy
