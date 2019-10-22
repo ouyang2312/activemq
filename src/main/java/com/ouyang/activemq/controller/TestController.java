@@ -38,8 +38,4 @@ public class TestController {
         productService.delaySend(destination,msg,1000L*20);
     }
 
-    public void test(){
-
-    }
-
 }
