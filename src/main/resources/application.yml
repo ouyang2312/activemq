@@ -12,8 +12,8 @@ spring:
       enabled: true
       max-connections: 50
       idle-timeout: 30000
-  jms:
-    pub-sub-domain: true  # true表示top false 队列
+#  jms:
+#    pub-sub-domain: true  # true表示top false 队列
 
 queue.oy: oy
 

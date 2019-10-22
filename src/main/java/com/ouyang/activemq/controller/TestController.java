@@ -32,5 +32,10 @@ public class TestController {
         productService.sendMessage(destination,msg);
     }
 
+    @GetMapping(value = "/delaySendMsg")
+    public void delaySendMsg(@RequestParam("msg") String msg){
+        Destination destination = new ActiveMQQueue(queue);
+        productService.delaySend(destination,msg,1000L*20);
+    }
 
 }
