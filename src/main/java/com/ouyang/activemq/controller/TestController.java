@@ -38,4 +38,9 @@ public class TestController {
         productService.delaySend(destination,msg,1000L*20);
     }
 
+    public void test2(){
+        System.out.println("suibianxiede2");
+    }
+
+
 }
