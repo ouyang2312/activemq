@@ -42,4 +42,9 @@ public class TestController {
         System.out.println("suibianxiede");
     }
 
+    public void test2(){
+        System.out.println("suibianxiede2");
+    }
+
+
 }
