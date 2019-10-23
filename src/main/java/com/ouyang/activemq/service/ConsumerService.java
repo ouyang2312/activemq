@@ -15,5 +15,5 @@ public class ConsumerService {
     public void receiveQuery(String msg){
         System.out.println("接受到的消息："+msg);
     }
-
+//121636
 }
