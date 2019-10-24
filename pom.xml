@@ -57,6 +57,21 @@
             <artifactId>pooled-jms</artifactId>
             <version>1.0.3</version>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>javax.media</groupId>-->
+            <!--<artifactId>jmf</artifactId>-->
+            <!--<version>2.1.1e</version>-->
+        <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/org.clojars.automata/jl -->
+        <dependency>
+            <groupId>org.clojars.automata</groupId>
+            <artifactId>jl</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
