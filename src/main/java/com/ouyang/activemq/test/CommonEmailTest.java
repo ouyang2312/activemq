@@ -34,6 +34,8 @@ public class CommonEmailTest {
         prop.setProperty("mail.host", mail_host);
         prop.setProperty("mail.transport.protocol", "smtp");
         prop.setProperty("mail.smtp.auth", "true");
+        prop.setProperty("mail.smtp.port", "465");
+        prop.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
 
         // 使用JavaMail发送邮件的5个步骤
 
